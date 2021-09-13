@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+* {margin: 0;padding: 0;box-sizing: border-box; font-family: Dotum,'돋움',sans-serif;}
+a:link , a:visited {text-decoration: none;color: inherit;}
+li {list-style: none;}
+/* 초기화 */
+.ad {background-color: #4f79a9;}
+.ad_box {margin: 0 auto;width: 1100px;height: 80px;}
+/* 광고 */
+header {background-color: #333;height: 91;border-bottom: 1px solid rgba(255, 255, 255, .2);}
+.head_bg {width: 1100px;height: 91px;margin: 0 auto;position: relative;}
+.logo {position: absolute;top: 22px;left: 480px;}
+.menu_left {padding-top: 10px;}
+.left_top a {display: inline;font-size: 13px;color: #888;margin: 0 20px 0 0;}
+.left_bottom {margin-top: 20px;margin-left: 5px;}
+.left_bottom img{margin-right: 20px;}
+
+.gnb {display: inline;}
+.gnb > li {color: #fff;font-size: 15px;width: 32px;height: 38px;float: left;position: absolute;top: 45px;font-weight: 600;}
+.gnb > li:first-child {left: 166px;}
+.gnb > li:nth-child(2) {left: 256px;}
+.gnb > li:nth-child(3) {left: 345px;}
+.gnb > li:nth-child(4) {right: 347px;width: 48px;}
+.gnb > li:nth-child(5) {right: 241px;width: 48px;}
+.gnb > li:nth-child(6) {right: 150px;}
+
+
+
+
+.lnb_bg {background-color: #444444;width: 1100px;height: 44px;position: absolute;top: 92px;display: none;z-index: 3;}
+.lnb_box li {position: relative;}
+.lnb_a li {display: inline;font-size: 15px;color: #fff;line-height: 44px;position: absolute;z-index: 5;display: none;}
+.lnb_a li:first-child {left: 120px;}
+.lnb_a li:nth-child(2) {left: 210px;}
+.lnb_a li:nth-child(3) {left: 300px;}
+.lnb_a li:nth-child(4) {left: 390px;}
+.lnb_b li {display: inline;font-size: 15px;color: #fff;line-height: 44px;position: absolute;z-index: 5;display: none;}
+.lnb_b li:first-child {left: 140px;}
+.lnb_b li:nth-child(2) {left: 230px;}
+.lnb_b li:nth-child(3) {left: 320px;}
+.lnb_c li {display: inline;font-size: 15px;color: #fff;line-height: 44px;position: absolute;z-index: 5;display: none;}
+.lnb_c li:first-child {left: 290px;}
+.lnb_c li:nth-child(2) {left: 380px;}
+.lnb_d li {display: inline;font-size: 15px;color: #fff;line-height: 44px;position: absolute;z-index: 5;display: none;}
+.lnb_d li:first-child {right: 440px;}
+.lnb_d li:nth-child(2) {right: 330px;}
+.lnb_d li:nth-child(3) {right: 220px;}
+.lnb_e li {display: inline;font-size: 15px;color: #fff;line-height: 44px;position: absolute;z-index: 5;display: none;}
+.lnb_e li:first-child {right: 140px;}
+.lnb_e li:nth-child(2) {right: 50px;}
+
+/*  */
+.main {height: 921px;background-color: #130d0c;}
