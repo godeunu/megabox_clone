@@ -12,8 +12,15 @@ header {background-color: #333;height: 91;border-bottom: 1px solid rgba(255, 255
 .logo {position: absolute;top: 22px;left: 480px;}
 .menu_left {padding-top: 10px;}
 .left_top a {display: inline;font-size: 13px;color: #888;margin: 0 20px 0 0;}
+.left_top a:nth-child(4) {float: right;margin-right: 0;}
+.left_top a:nth-child(5) {float: right;}
+.left_top a:nth-child(6) {float: right;}
+.left_top a:hover {text-decoration: underline;}
 .left_bottom {margin-top: 20px;margin-left: 5px;}
 .left_bottom img{margin-right: 20px;}
+.menu_right a {position: absolute;}
+.menu_right a:nth-child(2) {right: 10px;top: 46px;}
+.menu_right a:nth-child(1) {right: 40px;top: 38px;}
 
 .gnb {display: inline;}
 .gnb > li {color: #fff;font-size: 15px;width: 32px;height: 38px;float: left;position: absolute;top: 45px;font-weight: 600;}
@@ -49,5 +56,26 @@ header {background-color: #333;height: 91;border-bottom: 1px solid rgba(255, 255
 .lnb_e li:first-child {right: 140px;}
 .lnb_e li:nth-child(2) {right: 50px;}
 
-/*  */
+/* header */
 .main {height: 921px;background-color: #130d0c;}
+.main_container {width: 1100px;height: 100%;position: relative;margin: 0 auto;}
+.main_title a {position: absolute;color: #fff;top: 80px;font-size: 1em;}
+.main_title a img {margin: 0 5px;top: 82px;}
+.main_title a:first-child {right: 510px;font-weight: 400;width: 80px;height: 25px;border-bottom: 2px solid rgba(255, 255, 255, .2);}
+.main_title a:last-child {font-size: 15px;color: #aaa;font-weight: 400;right: 0;}
+.main_title a:last-child:hover {text-decoration: underline;}
+
+.poster_cont {width: 1100px;}
+.poster {display: inline-block;}
+.poster a {width: 245px;height: 352px;display: block;top: 122px;position: absolute;}
+.poster a img {width: 245px;height: 352px;border-radius: 5px;}
+.poster a:nth-child(2) {left: 285px;}
+.poster a:nth-child(3) {left: 570px;}
+.poster a:last-child {right: 0px;}
+
+.icon_a {width: 61px;height: 35px;background-color: rgba(0, 0, 0, 0.6);position: absolute;top: 130px;left: 220px;padding: 8px;border-radius: 3px;}
+.poster_icon img {position: absolute;}
+
+
+
+/* 245*352 */
